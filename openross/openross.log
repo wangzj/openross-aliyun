@@ -1,0 +1,13 @@
+2015-01-19 12:33:57+0800 [-] Log opened.
+2015-01-19 12:33:57+0800 [-] twistd 14.0.2 (/root/streetsnap/env/bin/python 2.6.6) starting up.
+2015-01-19 12:33:57+0800 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-01-19 12:33:57+0800 [-] Site starting on 5500
+2015-01-19 12:33:57+0800 [-] Starting factory <twisted.web.server.Site instance at 0x1ee96c8>
+2015-01-19 12:34:12+0800 [HTTPChannel,0,222.130.134.61] Received new image, url:5a14c2e7a61ab47ffa58902236282137.jpg, w:210, h:210, m:resize kw:{}
+2015-01-19 12:34:12+0800 [HTTPChannel,0,222.130.134.61] [2015-01-19T12:34:12.237740] Starting S3 Download
+2015-01-19 12:34:12+0800 [-] [2015-01-19T12:34:12.385443] Resized Image Size 7592
+2015-01-19 12:34:12+0800 [-] [2015-01-19T12:34:12.386861] Cached image location: /tmp/5a14c2e7a61ab47ffa58902236282137.jpg
+2015-01-19 12:34:12+0800 [-] IMG: 5a14c2e7a61ab47ffa58902236282137.jpg - done
+2015-01-19 12:34:12+0800 [-] Header Info: /5a14c2e7a61ab47ffa58902236282137_210x210_resize.jpg
+2015-01-19 12:34:12+0800 [-] "222.130.134.61" - - [19/Jan/2015:04:34:12 +0000] "GET /5a14c2e7a61ab47ffa58902236282137.jpg?width=210&height=210&mode=resize HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2015-01-19 12:34:12+0800 [HTTPChannel,1,222.130.134.61] "222.130.134.61" - - [19/Jan/2015:04:34:12 +0000] "GET /favicon.ico HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"
